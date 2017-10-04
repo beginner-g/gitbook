@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>第一节：git 命令(上传) · GitBook</title>
+        <title>第四章：Git和Github · GitBook</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.3">
@@ -57,10 +57,10 @@
     <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="gh-pages.html" />
+    <link rel="next" href="git.html" />
     
     
-    <link rel="prev" href="./" />
+    <link rel="prev" href="../gitbook/error.html" />
     
 
     </head>
@@ -257,7 +257,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.5" data-path="./">
+        <li class="chapter active" data-level="1.5" data-path="./">
             
                 <a href="./">
             
@@ -271,7 +271,7 @@
             <ul class="articles">
                 
     
-        <li class="chapter active" data-level="1.5.1" data-path="git.html">
+        <li class="chapter " data-level="1.5.1" data-path="git.html">
             
                 <a href="git.html">
             
@@ -598,7 +598,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href=".." >第一节：git 命令(上传)</a>
+        <a href=".." >第四章：Git和Github</a>
     </h1>
 </div>
 
@@ -613,28 +613,8 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="git-&#x547D;&#x4EE4;&#x4E0A;&#x4F20;">git &#x547D;&#x4EE4;(&#x4E0A;&#x4F20;)</h1>
-<h3 id="&#x628A;&#x7F51;&#x4E0A;&#x4ED3;&#x5E93;&#x4E0A;&#x4F20;&#x5230;&#x672C;&#x5730;&#xFF0C;&#x5E76;&#x5BF9;&#x591A;&#x4E2A;&#x4EBA;&#x5199;&#x7684;&#x5185;&#x5BB9;&#x7684;&#x66F4;&#x65B0;&#x4E0E;&#x81EA;&#x5DF1;&#x5199;&#x7684;&#x540C;&#x6B65;">&#x628A;&#x7F51;&#x4E0A;&#x4ED3;&#x5E93;&#x4E0A;&#x4F20;&#x5230;&#x672C;&#x5730;&#xFF0C;&#x5E76;&#x5BF9;&#x591A;&#x4E2A;&#x4EBA;&#x5199;&#x7684;&#x5185;&#x5BB9;&#x7684;&#x66F4;&#x65B0;&#x4E0E;&#x81EA;&#x5DF1;&#x5199;&#x7684;&#x540C;&#x6B65;</h3>
-<ul>
-<li>git clone &#x514B;&#x9686;&#x7F51;&#x4E0A;&#x4ED3;&#x5E93;&#x5230;&#x672C;&#x5730;</li>
-<li>git diff &#x672A;&#x6DFB;&#x52A0;&#x5230;git&#x7F13;&#x5B58;&#x533A;&#x4E4B;&#x524D;&#x8BE6;&#x7EC6;&#x4FEE;&#x6539;
-&#x67E5;&#x770B;&#x505A;&#x4E86;&#x54EA;&#x4E9B;&#x4FEE;&#x6539;&#x3002;&#x6309; q &#x9000;&#x51FA;&#x3002;</li>
-<li>git add &lt;&#x6587;&#x4EF6;&#x540D;&gt; &#x628A;&#x9879;&#x76EE;&#x7684;&#x4FEE;&#x6539;&#x6DFB;&#x52A0;&#x5230;&#x7F13;&#x5B58;&#x533A;</li>
-<li>git commit -m &apos;&#x540D;&#x5B57;&apos; &#x66F4;&#x65B0;&#x7248;&#x672C;</li>
-<li>git push &#x4E0A;&#x4F20;&#x7F51;&#x4E0A;</li>
-<li>git pull &#x591A;&#x4E2A;&#x7CFB;&#x7EDF;&#x540C;&#x65F6;&#x66F4;&#x65B0;&#xFF0C;&#x5148;&#x628A;&#x7F51;&#x4E0A;&#x4FEE;&#x6539;&#x7684;&#x653E;&#x5230;&#x672C;&#x5730;</li>
-<li>git log &#x67E5;&#x770B;&#x5F53;&#x524D;&#x7248;&#x672C;&#x4FE1;&#x606F;</li>
-<li>git log --pretty=oneline &#x663E;&#x793A;1&#x884C;</li>
-<li>git reset --hard [&#x7248;&#x672C;&#x53F7;] &#x56DE;&#x9000;&#x5230;&#x8BE5;&#x7248;&#x672C;</li>
-</ul>
-<h3 id="&#x628A;&#x672C;&#x5730;&#x5EFA;&#x7684;&#x6587;&#x4EF6;&#x5939;&#x4E0A;&#x4F20;&#x5230;&#x7F51;&#x4E0A;">&#x628A;&#x672C;&#x5730;&#x5EFA;&#x7684;&#x6587;&#x4EF6;&#x5939;&#x4E0A;&#x4F20;&#x5230;&#x7F51;&#x4E0A;</h3>
-<pre><code>  1.&#x5148;&#x5728;&#x7F51;&#x4E0A;&#x521B;&#x5EFA;&#x4ED3;&#x5E93;
-  2.git init(&#x5C06;&#x672C;&#x5730;&#x7684;&#x6587;&#x4EF6;&#x5939;&#x53D8;&#x6210;&#x4ED3;&#x5E93;)
-  3.git add README.md
-  4.git commit -m &quot;first commit&quot;
-  5.git remote add origin git@github.com:beginner-g/a.git
-  6.git push -u origin master
-</code></pre>
+                                <h1 id="git-&#x548C;-github">git &#x548C; github</h1>
+
                                 
                                 </section>
                             
@@ -661,12 +641,12 @@
 
             
                 
-                <a href="./" class="navigation navigation-prev " aria-label="Previous page: 第四章：Git和Github">
+                <a href="../gitbook/error.html" class="navigation navigation-prev " aria-label="Previous page: 第五节：常见错误">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
                 
-                <a href="gh-pages.html" class="navigation navigation-next " aria-label="Next page: 第二节：git 命令(分支)">
+                <a href="git.html" class="navigation navigation-next " aria-label="Next page: 第一节：git 命令(上传)">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -677,7 +657,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"第一节：git 命令(上传)","level":"1.5.1","depth":2,"next":{"title":"第二节：git 命令(分支)","level":"1.5.2","depth":2,"path":"git/gh-pages.md","ref":"./git/gh-pages.md","articles":[]},"previous":{"title":"第四章：Git和Github","level":"1.5","depth":1,"path":"git/index.md","ref":"./git/index.md","articles":[{"title":"第一节：git 命令(上传)","level":"1.5.1","depth":2,"path":"git/git.md","ref":"./git/git.md","articles":[]},{"title":"第二节：git 命令(分支)","level":"1.5.2","depth":2,"path":"git/gh-pages.md","ref":"./git/gh-pages.md","articles":[]},{"title":"第三节：如何用 gh-pages 机制托管一个静态页面？","level":"1.5.3","depth":2,"path":"git/gh-pages1.md","ref":"./git/gh-pages1.md","articles":[]}]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"git/git.md","mtime":"2017-09-18T02:47:12.000Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2017-10-04T08:16:00.338Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"第四章：Git和Github","level":"1.5","depth":1,"next":{"title":"第一节：git 命令(上传)","level":"1.5.1","depth":2,"path":"git/git.md","ref":"./git/git.md","articles":[]},"previous":{"title":"第五节：常见错误","level":"1.4.5","depth":2,"path":"gitbook/error.md","ref":"./gitbook/error.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"git/index.md","mtime":"2017-09-18T02:28:11.000Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2017-10-04T08:16:00.338Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
