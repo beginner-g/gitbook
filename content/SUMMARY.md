@@ -90,3 +90,5 @@
   - [第十节：加载初始化数据](./vue/vue-load.md)
 * [第二十二章：React+webpack](./react_webpack/index.md)
 * [第二十三章：Material-ui的使用](./material-ui/guides.md)
+* [第二十四章：Sass如何使用](./sass/index.md)
+  - [第一节：安装Sass](./sass/install.md)
